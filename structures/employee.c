@@ -8,11 +8,9 @@ struct employee_record{
 } data;
 int main ()  
 {
-    
-    for (int i = 1; i <= 5; i++)
-    {
-        
-    }
+    printf("Enter the age :");
+    scanf("%f",&data.age);
+    printf("%f",data.age);
     
 return 0;
 }
